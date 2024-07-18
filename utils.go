@@ -131,6 +131,7 @@ func GetRegions() AWSRegions {
 		NewRegion("Asia Pacific (Jakarta)", "ap-southeast-3"),
 		NewRegion("Asia Pacific (Melbourne)", "ap-southeast-4"),
 		NewRegion("Canada (Central)", "ca-central-1"),
+		NewRegion("Canada West (Calgary)", "ca-west-1"),
 		NewRegion("Europe (Frankfurt)", "eu-central-1"),
 		NewRegion("Europe (Zurich)", "eu-central-2"),
 		NewRegion("Europe (Stockholm)", "eu-north-1"),
@@ -139,6 +140,7 @@ func GetRegions() AWSRegions {
 		NewRegion("Europe (Ireland)", "eu-west-1"),
 		NewRegion("Europe (London)", "eu-west-2"),
 		NewRegion("Europe (Paris)", "eu-west-3"),
+		NewRegion("Israel (Tel Aviv)", "il-central-1"),
 		NewRegion("Middle East (UAE)", "me-central-1"),
 		NewRegion("Middle East (Bahrain)", "me-south-1"),
 		NewRegion("South America (Sao Paulo)", "sa-east-1"),
@@ -146,7 +148,6 @@ func GetRegions() AWSRegions {
 		NewRegion("US East (Ohio)", "us-east-2"),
 		NewRegion("US West (N. California)", "us-west-1"),
 		NewRegion("US West (Oregon)", "us-west-2"),
-		NewRegion("Israel (Tel Aviv)", "il-central-1"),
 	}
 }
 
